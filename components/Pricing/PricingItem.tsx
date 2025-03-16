@@ -6,20 +6,16 @@ import { toast } from "react-hot-toast";
 import { MotionDiv } from "@/app/libs/framer-utls";
 
 export const PricingItem = ({ price }: { price: any }) => {
-  // POST request
+  // Handle subscription POST request
   const handleSubscription = async (e: React.FormEvent) => {
     e.preventDefault();
     if (integrations?.isStripeEnabled) {
       const { data } = await axios.post(
         "/api/payment",
+        { priceId: price.id },
         {
-          priceId: price.id,
-        },
-        {
-          headers: {
-            "Content-Type": "application/json",
-          },
-        },
+          headers: { "Content-Type": "application/json" },
+        }
       );
       window.location.assign(data);
     } else {
@@ -30,15 +26,8 @@ export const PricingItem = ({ price }: { price: any }) => {
   return (
     <MotionDiv
       variants={{
-        hidden: {
-          opacity: 0,
-          y: -20,
-        },
-
-        visible: {
-          opacity: 1,
-          y: 0,
-        },
+        hidden: { opacity: 0, y: -20 },
+        visible: { opacity: 1, y: 0 },
       }}
       initial="hidden"
       whileInView="visible"
@@ -60,70 +49,82 @@ export const PricingItem = ({ price }: { price: any }) => {
         <span className="text-regular text-waterloo dark:text-manatee">
           /month
         </span>
-        {/* {price.id} */}
       </h3>
       <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
-        {price.nickname} Pack
+        {price.nickname === "Small"
+          ? "Basic Plan"
+          : price.nickname === "Medium"
+          ? "Premium Plan"
+          : "Pro Plan"}
       </h4>
-      <p>Lorem ipsum dolor sit amet, consec adipisicing elit.</p>
+      <p>
+        {price.nickname === "Small" &&
+          "Ideal for individuals seeking personalized meal planning and essential grocery list features."}
+        {price.nickname === "Medium" &&
+          "Perfect for families and busy professionals who need unlimited meal planning and advanced pantry management."}
+        {price.nickname === "Large" &&
+          "Designed for power users requiring a full suite of smart integrations, custom recommendations, and dedicated support."}
+      </p>
 
       <div className="mt-9 border-t border-stroke pb-12.5 pt-9 dark:border-strokedark">
         {price.nickname === "Small" && (
           <ul>
-            <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-              300 GB Storage
+            <li className="mb-4 text-black dark:text-manatee">
+              Personalized Meal Plans
             </li>
-            <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-              Unlimited Photos and Videos
+            <li className="mb-4 text-black dark:text-manatee">
+              Basic Grocery List Generation
             </li>
-            <li className="mb-4 text-black opacity-40 last:mb-0 dark:text-manatee">
-              Exclusive Support
+            <li className="mb-4 text-black dark:text-manatee">
+              Essential Pantry Tracking
             </li>
-            <li className="mb-4 text-black opacity-40 last:mb-0 dark:text-manatee">
-              Custom Branding Strategy
+            <li className="mb-4 text-black opacity-40 dark:text-manatee">
+              Community Support
             </li>
           </ul>
         )}
         {price.nickname === "Medium" && (
           <ul>
-            <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-              300 GB Storage
+            <li className="mb-4 text-black dark:text-manatee">
+              Unlimited AI-Driven Meal Plans
             </li>
-            <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-              Unlimited Photos and Videos
+            <li className="mb-4 text-black dark:text-manatee">
+              Optimized Grocery Shopping Lists
             </li>
-            <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-              Exclusive Support
+            <li className="mb-4 text-black dark:text-manatee">
+              Advanced Pantry Management
             </li>
-            <li className="mb-4 text-black opacity-40 last:mb-0 dark:text-manatee">
-              Custom Branding Strategy
+            <li className="mb-4 text-black dark:text-manatee">
+              Priority Customer Support
             </li>
           </ul>
         )}
         {price.nickname === "Large" && (
           <ul>
-            <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-              300 GB Storage
+            <li className="mb-4 text-black dark:text-manatee">
+              All-Inclusive Meal Planning Suite
             </li>
-            <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-              Unlimited Photos and Videos
+            <li className="mb-4 text-black dark:text-manatee">
+              Custom Recipe Recommendations
             </li>
-            <li className="mb-4 text-black last:mb-0 dark:text-manatee ">
-              Exclusive Support
+            <li className="mb-4 text-black dark:text-manatee">
+              Full Pantry & Smart Integrations
             </li>
-            <li className="mb-4 text-black last:mb-0 dark:text-manatee ">
-              Custom Branding Strategy
+            <li className="mb-4 text-black dark:text-manatee">
+              Dedicated Support & Consultation
             </li>
           </ul>
         )}
       </div>
 
       <button
-        aria-label="purchase this plan"
+        aria-label="Subscribe to this plan"
         onClick={handleSubscription}
         className="group/btn inline-flex items-center gap-2.5 font-medium text-primary transition-all duration-300 dark:text-white dark:hover:text-primary"
       >
-        <span className="duration-300 group-hover/btn:pr-2"> Get the Plan</span>
+        <span className="duration-300 group-hover/btn:pr-2">
+          Subscribe Now
+        </span>
         <svg
           width="14"
           height="14"

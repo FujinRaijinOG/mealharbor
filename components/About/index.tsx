@@ -6,21 +6,14 @@ import { MotionDiv } from "@/app/libs/framer-utls";
 const About = () => {
   return (
     <>
-      {/* <!-- ===== About Start ===== --> */}
+      {/* ===== About Section Start ===== */}
       <section className="overflow-hidden pb-20 lg:pb-25 xl:pb-30">
         <div className="mx-auto max-w-c-1235 px-4 md:px-8 xl:px-0">
           <div className="flex items-center gap-8 lg:gap-32.5">
             <MotionDiv
               variants={{
-                hidden: {
-                  opacity: 0,
-                  x: -20,
-                },
-
-                visible: {
-                  opacity: 1,
-                  x: 0,
-                },
+                hidden: { opacity: 0, x: -20 },
+                visible: { opacity: 1, x: 0 },
               }}
               initial="hidden"
               whileInView="visible"
@@ -30,28 +23,21 @@ const About = () => {
             >
               <Image
                 src="/images/about/about-light-01.png"
-                alt="About"
+                alt="MealHarbor in Action - Light Mode"
                 className="dark:hidden"
                 fill
               />
               <Image
                 src="/images/about/about-dark-01.png"
-                alt="About"
+                alt="MealHarbor in Action - Dark Mode"
                 className="hidden dark:block"
                 fill
               />
             </MotionDiv>
             <MotionDiv
               variants={{
-                hidden: {
-                  opacity: 0,
-                  x: 20,
-                },
-
-                visible: {
-                  opacity: 1,
-                  x: 0,
-                },
+                hidden: { opacity: 0, x: 20 },
+                visible: { opacity: 1, x: 0 },
               }}
               initial="hidden"
               whileInView="visible"
@@ -60,70 +46,59 @@ const About = () => {
               className="animate_right md:w-1/2"
             >
               <h4 className="font-medium uppercase text-black dark:text-white">
-                <span className="mb-4 mr-4 inline-flex rounded-full bg-meta px-4.5 py-1 text-metatitle uppercase text-white ">
-                  New
-                </span>{" "}
-                SaaS Boilerplate for Next.js
+                MealHarbor – Your AI Kitchen Assistant
               </h4>
               <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
-                A Complete Solution for
+                Transforming Meal Planning for a Healthier Lifestyle
                 <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark">
-                  SaaS Startup
+                  {" "}
+                  with Smart AI
                 </span>
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                ultricies lacus non fermentum ultrices. Fusce consectetur le.
+                MealHarbor leverages artificial intelligence to create personalized meal plans based on your pantry, dietary needs, and lifestyle preferences. Enjoy a stress-free cooking experience while saving time and reducing food waste.
               </p>
 
               <div className="mt-7.5 flex items-center gap-5">
-                <div className="flex h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
+                <div className="flex h-15 w-15 items-center justify-center rounded-full border border-stroke dark:border-strokedark dark:bg-blacksection">
                   <p className="text-metatitle2 font-semibold text-black dark:text-white">
                     01
                   </p>
                 </div>
                 <div className="w-3/4">
                   <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
-                    Mailchimp for Newsletter Emails + SMTP for Transactional
-                    Emails
+                    AI-Driven Personalized Meal Plans
                   </h3>
-                  <p>Ut ultricies lacus non fermentum ultrices.</p>
+                  <p>Tailor-made recipes that adapt to your pantry and taste.</p>
                 </div>
               </div>
               <div className="mt-7.5 flex items-center gap-5">
-                <div className="flex h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
+                <div className="flex h-15 w-15 items-center justify-center rounded-full border border-stroke dark:border-strokedark dark:bg-blacksection">
                   <p className="text-metatitle2 font-semibold text-black dark:text-white">
                     02
                   </p>
                 </div>
                 <div className="w-3/4">
                   <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
-                    Algolia Integration for Site Search
+                    Smart Grocery & Pantry Management
                   </h3>
-                  <p>consectetur adipiscing elit fermentum ultricies.</p>
+                  <p>Automated grocery lists and inventory tracking for effortless shopping.</p>
                 </div>
               </div>
             </MotionDiv>
           </div>
         </div>
       </section>
-      {/* <!-- ===== About End ===== --> */}
+      {/* ===== About Section End ===== */}
 
-      {/* <!-- ===== About Two Start ===== --> */}
+      {/* ===== About Two Start ===== */}
       <section>
         <div className="mx-auto max-w-c-1235 overflow-hidden px-4 md:px-8 2xl:px-0">
           <div className="flex items-center gap-8 lg:gap-32.5">
             <MotionDiv
               variants={{
-                hidden: {
-                  opacity: 0,
-                  x: -20,
-                },
-
-                visible: {
-                  opacity: 1,
-                  x: 0,
-                },
+                hidden: { opacity: 0, x: -20 },
+                visible: { opacity: 1, x: 0 },
               }}
               initial="hidden"
               whileInView="visible"
@@ -132,17 +107,17 @@ const About = () => {
               className="animate_left md:w-1/2"
             >
               <h4 className="font-medium uppercase text-black dark:text-white">
-                Launch Your SaaS Fast
+                Effortless Kitchen Integration
               </h4>
               <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
-                Packed with All Essential
+                Seamless Connectivity with
                 <span className="relative ml-2.5 inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg2 dark:before:bg-titlebgdark">
-                  Integrations
+                  {" "}
+                  Your Favorite Services
                 </span>
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                ultricies lacus non fermentum ultrices. Fusce consectetur le.
+                Connect effortlessly with grocery delivery platforms, smart appliances, and more. MealHarbor streamlines your meal planning process, ensuring you always have what you need for a perfect meal.
               </p>
               <div>
                 <a
@@ -150,9 +125,8 @@ const About = () => {
                   className="group mt-7.5 inline-flex items-center gap-2.5 text-black hover:text-primary dark:text-white dark:hover:text-primary"
                 >
                   <span className="duration-300 group-hover:pr-2">
-                    Know More
+                    Discover More
                   </span>
-
                   <svg
                     width="14"
                     height="14"
@@ -169,15 +143,8 @@ const About = () => {
             </MotionDiv>
             <MotionDiv
               variants={{
-                hidden: {
-                  opacity: 0,
-                  x: 20,
-                },
-
-                visible: {
-                  opacity: 1,
-                  x: 0,
-                },
+                hidden: { opacity: 0, x: 20 },
+                visible: { opacity: 1, x: 0 },
               }}
               initial="hidden"
               whileInView="visible"
@@ -186,14 +153,14 @@ const About = () => {
               className="animate_right relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
             >
               <Image
-                src="./images/about/about-light-02.svg"
-                alt="About"
+                src="/images/about/about-light-02.svg"
+                alt="MealHarbor Integration Overview - Light Mode"
                 className="dark:hidden"
                 fill
               />
               <Image
-                src="./images/about/about-dark-02.svg"
-                alt="About"
+                src="/images/about/about-dark-02.svg"
+                alt="MealHarbor Integration Overview - Dark Mode"
                 className="hidden dark:block"
                 fill
               />
@@ -201,7 +168,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      {/* <!-- ===== About Two End ===== --> */}
+      {/* ===== About Two End ===== */}
     </>
   );
 };
