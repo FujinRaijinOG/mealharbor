@@ -1,3 +1,4 @@
+//app/libs/authOptions.ts
 import { prisma } from "./prismaDB";
 import { PrismaAdapter } from "@next-auth/prisma-adapter";
 import NextAuth, { type NextAuthOptions } from "next-auth";

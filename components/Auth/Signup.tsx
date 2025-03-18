@@ -1,3 +1,4 @@
+//components/Auth/Signup.tsx
 "use client";
 import axios from "axios";
 import { signIn } from "next-auth/react";
