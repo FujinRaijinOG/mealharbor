@@ -71,6 +71,8 @@ const Signin = () => {
           toast.success("Logged in successfully");
           setData({ email: "", password: "", remember: false });
           SetEmail("");
+        
+        window.location.href = "/dashboard"; // Change to your desired path
         }
       });
     } else {
