@@ -72,7 +72,7 @@ const Signin = () => {
           setData({ email: "", password: "", remember: false });
           SetEmail("");
         
-        window.location.href = "/dashboard"; // Change to your desired path
+          window.location.href = "/dashboard"; // Change to your desired path
         }
       });
     } else {
