@@ -1,4 +1,3 @@
-//components/Auth/Signin.tsx
 "use client";
 import { motion } from "framer-motion";
 import { signIn } from "next-auth/react";
@@ -10,6 +9,7 @@ import validateEmail from "@/app/libs/validate";
 import { integrations, messages } from "@/integration.config";
 import { z } from "zod";
 import { MotionSection } from "@/app/libs/framer-utls";
+import { useRouter } from "next/navigation"; // <-- Added
 
 const schema = z.object({
   email: z.string().email("Please enter a valid email address."),
@@ -38,6 +38,7 @@ const Signin = () => {
   });
 
   const [email, SetEmail] = useState("");
+  const router = useRouter(); // <-- Added
 
   const validateForm = (isEmail: boolean) => {
     const result = schema.safeParse(data);
@@ -71,8 +72,9 @@ const Signin = () => {
           toast.success("Logged in successfully");
           setData({ email: "", password: "", remember: false });
           SetEmail("");
-        
-          window.location.href = "/dashboard"; // Change to your desired path
+
+          // <-- Added redirect here
+          router.push("/dashboard");
         }
       });
     } else {
@@ -102,6 +104,7 @@ const Signin = () => {
         toast.error(error);
       });
   };
+
   return (
     <>
       {/* <!-- ===== SignIn Form Start ===== --> */}
