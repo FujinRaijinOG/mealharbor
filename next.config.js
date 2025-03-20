@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\next.config.js
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {

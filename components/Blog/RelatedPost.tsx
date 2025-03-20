@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\components\Blog\RelatedPost.tsx
 import React from "react";
 import Image from "next/image";
 import { getPosts } from "@/sanity/sanity-utils";

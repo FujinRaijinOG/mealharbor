@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\components\GlobalSearch\CustomHits.tsx
 import Image from "next/image";
 import Link from "next/link";
 import { Highlight } from "react-instantsearch-dom";

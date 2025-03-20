@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\app\(site)\blog\page.tsx
 import BlogItem from "@/components/Blog/BlogItem";
 import { Metadata } from "next";
 import { getPosts } from "@/sanity/sanity-utils";

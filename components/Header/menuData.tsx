@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\components\Header\menuData.tsx
 import { Menu } from "@/types/menu";
 
 const menuData: Menu[] = [

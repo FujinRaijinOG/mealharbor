@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\components\Common\SectionHeader.tsx
 "use client";
 import { MotionDiv } from "@/app/libs/framer-utls";
 

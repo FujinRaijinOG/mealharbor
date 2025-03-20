@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\app\(site)\layout.tsx
 //app/(site)/layout.tsx
 "use client";
 

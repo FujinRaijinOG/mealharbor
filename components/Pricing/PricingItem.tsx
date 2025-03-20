@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\components\Pricing\PricingItem.tsx
 "use client";
 import axios from "axios";
 import { motion } from "framer-motion";

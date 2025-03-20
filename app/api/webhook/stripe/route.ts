@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\app\api\webhook\stripe\route.ts
 import { headers } from "next/headers";
 import Stripe from "stripe";
 

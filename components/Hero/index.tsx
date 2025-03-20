@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\components\Hero\index.tsx
 import Image from "next/image";
 import Link from "next/link";
 

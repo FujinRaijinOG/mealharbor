@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\sanity\schemas\post.ts
 const post = {
   name: "post",
   title: "Post",

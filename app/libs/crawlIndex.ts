@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\app\libs\crawlIndex.ts
 import algoliasearch from "algoliasearch";
 import { load } from "cheerio";
 

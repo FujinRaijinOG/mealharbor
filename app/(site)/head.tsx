@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\app\(site)\head.tsx
 //app/(site)/head.tsx
 export default function Head() {
   return (

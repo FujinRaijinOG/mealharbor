@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\components\Pricing\index.tsx
 "use client";
 import Image from "next/image";
 import SectionHeader from "../Common/SectionHeader";

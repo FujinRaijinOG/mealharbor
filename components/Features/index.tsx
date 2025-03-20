@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\components\Features\index.tsx
 "use client";
 import React from "react";
 import featuresData from "./featuresData";

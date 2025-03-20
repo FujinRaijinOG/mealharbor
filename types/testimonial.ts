@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\types\testimonial.ts
 import { StaticImageData } from "next/image";
 
 export type Testimonial = {

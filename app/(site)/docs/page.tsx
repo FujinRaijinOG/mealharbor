@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\app\(site)\docs\page.tsx
 import { getAllPosts } from "@/app/libs/markdown";
 import SidebarLink from "@/components/Docs/SidebarLink";
 

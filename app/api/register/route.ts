@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\app\api\register\route.ts
 import bcrypt from "bcrypt";
 import { prisma } from "../../libs/prismaDB";
 import { NextRequest, NextResponse } from "next/server";

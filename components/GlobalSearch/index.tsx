@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\components\GlobalSearch\index.tsx
 import algoliasearch from "algoliasearch";
 import React, { useEffect, useRef } from "react";
 import { Hits, InstantSearch } from "react-instantsearch-dom";

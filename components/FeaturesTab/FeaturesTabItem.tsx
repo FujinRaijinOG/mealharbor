@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\components\FeaturesTab\FeaturesTabItem.tsx
 import React from "react";
 import { FeatureTab } from "@/types/featureTab";
 import Image from "next/image";

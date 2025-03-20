@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\components\Auth\ResetPassword.tsx
 "use client";
 import Image from "next/image";
 import { useState, useEffect } from "react";

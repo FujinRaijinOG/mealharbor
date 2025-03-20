@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\sanity\sanity-utils.ts
 import ImageUrlBuilder from "@sanity/image-url";
 import { groq } from "next-sanity";
 import { createClient, type QueryParams } from "next-sanity";

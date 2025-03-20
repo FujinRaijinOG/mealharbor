@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\components\GlobalSearch\CustomSearchBox.tsx
 import { connectSearchBox } from "react-instantsearch-dom";
 
 function CustomSearchBox({ refine }: any) {

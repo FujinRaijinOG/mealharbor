@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\sanity\schemas\project-schema.ts
 const project = {
   name: "project",
   title: "Projects",

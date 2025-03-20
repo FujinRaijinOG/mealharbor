@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\components\Testimonial\index.tsx
 "use client";
 import SectionHeader from "../Common/SectionHeader";
 import { Autoplay, Pagination } from "swiper";

@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\components\Brands\index.tsx
 "use client";
 import React from "react";
 import SingleBrand from "./SingleBrand";

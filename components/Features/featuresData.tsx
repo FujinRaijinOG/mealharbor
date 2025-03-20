@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\components\Features\featuresData.tsx
 import { Feature } from "@/types/feature";
 
 const featuresData: Feature[] = [

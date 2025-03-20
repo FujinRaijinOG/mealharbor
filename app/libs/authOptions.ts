@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\app\libs\authOptions.ts
 //app/libs/authOptions.ts
 import { prisma } from "./prismaDB";
 import { PrismaAdapter } from "@next-auth/prisma-adapter";

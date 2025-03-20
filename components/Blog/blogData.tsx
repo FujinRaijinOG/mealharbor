@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\components\Blog\blogData.tsx
 import { Blog } from "@/types/blog";
 
 const BlogData: Blog[] = [

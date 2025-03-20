@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\app\api\newsletter\route.ts
 import type { NextApiResponse } from "next";
 import { NextResponse } from "next/server";
 

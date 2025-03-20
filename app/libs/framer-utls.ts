@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\app\libs\framer-utls.ts
 import { motion, type MotionProps } from "framer-motion";
 
 type MotionDivProps = MotionProps & React.HTMLAttributes<HTMLDivElement>;

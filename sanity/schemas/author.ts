@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\sanity\schemas\author.ts
 const author = {
   name: "author",
   title: "Author",

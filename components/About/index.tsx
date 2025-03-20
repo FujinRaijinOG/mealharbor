@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\components\About\index.tsx
 "use client";
 
 import Image from "next/image";

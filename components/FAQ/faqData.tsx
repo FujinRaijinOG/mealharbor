@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\components\FAQ\faqData.tsx
 import { FAQ } from "@/types/faq";
 
 const faqData: FAQ[] = [

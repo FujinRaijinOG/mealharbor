@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\integration.config.tsx
 const integrations = {
   isSanityEnabled: true,
   isStripeEnabled: true,

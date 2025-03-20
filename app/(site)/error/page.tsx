@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\app\(site)\error\page.tsx
 import { Metadata } from "next";
 import Image from "next/image";
 

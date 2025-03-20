@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\sanity\sanity-query.ts
 import { groq } from "next-sanity";
 
 export const postQuery = groq`*[_type == "post"] {

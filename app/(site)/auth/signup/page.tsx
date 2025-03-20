@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\app\(site)\auth\signup\page.tsx
 import Signup from "@/components/Auth/Signup";
 import { Metadata } from "next";
 

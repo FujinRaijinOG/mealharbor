@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\components\Features\SingleFeature.tsx
 import React from "react";
 import { Feature } from "@/types/feature";
 import Image from "next/image";

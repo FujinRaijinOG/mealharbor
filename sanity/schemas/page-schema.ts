@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\sanity\schemas\page-schema.ts
 const page = {
   name: "page",
   title: "Pages",

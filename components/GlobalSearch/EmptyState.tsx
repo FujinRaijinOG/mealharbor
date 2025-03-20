@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\components\GlobalSearch\EmptyState.tsx
 import React from "react";
 import { connectHits } from "react-instantsearch-dom";
 import { integrations, messages } from "@/integration.config";

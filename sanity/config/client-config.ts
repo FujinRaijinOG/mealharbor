@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\sanity\config\client-config.ts
 const config = {
   projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || "",
   dataset: "production",

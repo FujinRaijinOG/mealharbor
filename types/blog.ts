@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\types\blog.ts
 import { PortableTextBlock } from "sanity";
 
 export type Author = {

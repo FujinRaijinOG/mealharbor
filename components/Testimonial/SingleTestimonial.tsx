@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\components\Testimonial\SingleTestimonial.tsx
 import { Testimonial } from "@/types/testimonial";
 import Image from "next/image";
 

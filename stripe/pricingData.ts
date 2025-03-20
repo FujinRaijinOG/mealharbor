@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\stripe\pricingData.ts
 // pricingData.ts
 export const pricingData = [
   {

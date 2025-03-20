@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\app\(site)\page.tsx
 //app/(site)/page.tsx
 import { Metadata } from "next";
 import Hero from "@/components/Hero";

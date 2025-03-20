@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\components\Blog\SharePost.tsx
 const SharePost = () => {
   return (
     <>

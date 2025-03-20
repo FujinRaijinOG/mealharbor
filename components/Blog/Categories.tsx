@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\components\Blog\Categories.tsx
 import React from "react";
 import { getCategories } from "@/sanity/sanity-utils";
 import Link from "next/link";

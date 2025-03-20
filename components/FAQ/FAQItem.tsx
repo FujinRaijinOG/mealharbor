@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\components\FAQ\FAQItem.tsx
 type FaqData = {
   activeFaq: number;
   id: number;

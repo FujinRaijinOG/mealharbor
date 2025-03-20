@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\components\Brands\brandData.tsx
 import { Brand } from "@/types/brand";
 
 const brandData: Brand[] = [

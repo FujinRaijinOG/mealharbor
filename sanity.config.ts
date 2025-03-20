@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\sanity.config.ts
 import { defineConfig } from "sanity";
 import { deskTool } from "sanity/desk";
 import schemas from "./sanity/schemas";

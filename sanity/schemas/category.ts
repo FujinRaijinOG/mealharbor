@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\sanity\schemas\category.ts
 const category = {
   name: "category",
   title: "Category",

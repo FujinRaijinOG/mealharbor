@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\components\FunFact\index.tsx
 "use client";
 import React from "react";
 import Image from "next/image";

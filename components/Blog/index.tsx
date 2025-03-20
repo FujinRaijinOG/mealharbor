@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\components\Blog\index.tsx
 import React from "react";
 import SectionHeader from "../Common/SectionHeader";
 import BlogItem from "./BlogItem";

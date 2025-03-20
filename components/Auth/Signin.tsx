@@ -1,3 +1,4 @@
+// filepath: c:\Users\Lenovo\mealharbor\components\Auth\Signin.tsx
 "use client";
 import { motion } from "framer-motion";
 import { signIn } from "next-auth/react";
